@@ -1,0 +1,55 @@
+style.css*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial,sans-serif;
+}
+
+body{
+  background:#f4f4f4;
+}
+
+header{
+  background:#2e7d32;
+  color:white;
+  text-align:center;
+  padding:30px;
+}
+
+nav{
+  background:#388e3c;
+  text-align:center;
+  padding:15px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin:0 15px;
+  font-weight:bold;
+}
+
+section{
+  background:white;
+  margin:20px;
+  padding:20px;
+  border-radius:10px;
+}
+
+h2{
+  color:#2e7d32;
+  margin-bottom:10px;
+}
+
+button{
+  background:#2e7d32;
+  color:white;
+  border:none;
+  padding:10px 20px;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#1b5e20;
+}
