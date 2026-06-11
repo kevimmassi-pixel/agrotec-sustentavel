@@ -1,1 +1,7 @@
-
+meu-projeto/
+│
+├─ index.html
+├─ css/
+│   └─ .gitkeep
+├─ js/
+│   └─ .gitkeep
