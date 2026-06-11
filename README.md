@@ -24,17 +24,5 @@ O site apresenta informações sobre o projeto, seus objetivos e formas de engaj
 ---
 
 ## 👨‍💻 Autor
-**Kevim Massi** – desenvolvimento do site e conteúdo do projeto.  
+**Kevim Massi** – desenvolvimento do site e conteúdo do projeto.
 
----
-
-## 📄 Estrutura do Projeto
-- `index.html` – página principal do site.  
-- `style.css` – estilos do site.  
-- `README.md` – informações sobre o projeto.
-
----
-
-## 📌 Link do Site
-O site está hospedado no GitHub Pages:  
-`https://seu-usuario.github.io/nome-do-repositorio/`
