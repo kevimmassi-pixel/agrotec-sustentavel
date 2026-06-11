@@ -1,7 +1,7 @@
-meu-projeto/
+kevim-massi-futuro-limpo/
 │
-├─ index.html
-├─ css/
-│   └─ .gitkeep
-├─ js/
-│   └─ .gitkeep
+├── index.html
+├── css/
+│   └── style.css
+└── js/
+    └── script.js
