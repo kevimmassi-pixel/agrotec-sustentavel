@@ -3,67 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site no GitHub</title>
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
-        body {
-            background: linear-gradient(135deg, #0f172a, #1e293b);
-            color: white;
-            text-align: center;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .container {
-            padding: 40px;
-        }
-
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 15px;
-        }
-
-        p {
-            font-size: 1.2rem;
-            margin-bottom: 25px;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 12px 25px;
-            background: #38bdf8;
-            color: #000;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-        .btn:hover {
-            background: #0ea5e9;
-            transform: scale(1.05);
-        }
-    </style>
+    <title>Kevim Massi - Futuro Limpo</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <div class="container">
-        <h1>🚀 Meu Site no GitHub Pages</h1>
-        <p>Site hospedado gratuitamente usando GitHub Pages.</p>
+    <header>
+        <h1>🌱 Futuro Limpo</h1>
+        <p>Projeto de Kevim Massi para um amanhã mais sustentável</p>
+    </header>
 
-        <a href="https://github.com" target="_blank" class="btn">
-            Visitar GitHub
-        </a>
-    </div>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#acao">Ação</a>
+        <a href="#contato">Contato</a>
+    </nav>
 
+    <section id="sobre">
+        <h2>Sobre Kevim Massi</h2>
+        <p>
+            Eu sou Kevim Massi e acredito que pequenas atitudes podem transformar o mundo.
+            O futuro depende das escolhas que fazemos hoje.
+        </p>
+    </section>
+
+    <section id="acao">
+        <h2>Nosso Projeto</h2>
+        <p>
+            Incentivamos práticas sustentáveis como reciclagem, economia de água e preservação ambiental.
+        </p>
+
+        <button onclick="mostrarMensagem()">Participar</button>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Email: kevim.massi@futurolimpo.org</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Kevim Massi - Futuro Limpo</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
