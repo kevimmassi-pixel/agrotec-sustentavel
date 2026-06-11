@@ -76,3 +76,16 @@ footer {
     color: white;
     margin-top: 20px;
 }
+.banner-verde {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px 0;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.banner-verde:hover {
+    transform: scale(1.03);
+    opacity: 0.95;
+}
